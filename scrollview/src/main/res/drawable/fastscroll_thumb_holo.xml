@@ -15,6 +15,6 @@
 -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true" android:drawable="@drawable/press" />
-    <item android:drawable="@drawable/scroll" />
+    <item android:state_pressed="true" android:drawable="@drawable/scroll_thumb_pressed" />
+    <item android:drawable="@drawable/scroll_thumb" />
 </selector>

@@ -1,26 +1,19 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:myapp="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_vertical_margin"
-    android:paddingRight="@dimen/activity_vertical_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <com.nolanlawson.supersaiyan.widget.SuperSaiyanScrollView
+    <com.nolanlawson.supersaiyan.widget.FastScrollLayout
         android:id="@+id/scroll"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        myapp:ssjn_overlaySizeScheme="normal"
-        myapp:ssjn_overlayTheme="light">
+        android:layout_height="match_parent">
 
         <ListView
             android:id="@android:id/list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scrollbars="none" />
-    </com.nolanlawson.supersaiyan.widget.SuperSaiyanScrollView>
+    </com.nolanlawson.supersaiyan.widget.FastScrollLayout>
 
 </RelativeLayout>
