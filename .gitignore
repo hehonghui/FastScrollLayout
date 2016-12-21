@@ -4,6 +4,7 @@ dump.txt
 seeds.txt
 usage.txt
 *~
+.idea/*
 target
 .DS_Store
 android-support-v4.jar
