@@ -1,19 +1,12 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<com.simple.widget.FastScrollLayout
+    android:id="@+id/scroll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    android:layout_height="match_parent">
 
-    <com.nolanlawson.supersaiyan.widget.FastScrollLayout
-        android:id="@+id/scroll"
+    <ListView
+        android:id="@android:id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ListView
-            android:id="@android:id/list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scrollbars="none" />
-    </com.nolanlawson.supersaiyan.widget.FastScrollLayout>
-
-</RelativeLayout>
+        android:layout_height="match_parent"
+        android:scrollbars="none"/>
+</com.simple.widget.FastScrollLayout>

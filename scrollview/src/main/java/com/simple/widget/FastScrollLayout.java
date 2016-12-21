@@ -1,4 +1,4 @@
-package com.nolanlawson.supersaiyan.widget;
+package com.simple.widget;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -243,7 +243,7 @@ public class FastScrollLayout extends RelativeLayout implements OnScrollListener
         if (me.getAction() == MotionEvent.ACTION_DOWN) {
             if (me.getX() > getWidth() - mThumbW && me.getY() >= mThumbY && me.getY() <= mThumbY + mThumbH) {
                 mDragging = true;
-                // start drag // todo : my code
+                // start drag
                 mHandler.removeCallbacks(mScrollFade);
                 cancelFling();
                 return true;
