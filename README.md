@@ -26,5 +26,9 @@ xml :
 
 
 ## 定制 scroll thumb 
-将自己要替换的scroll thumb 放在drawable目录中, 资源名字为 scroll_thumb、scroll_thumb_pressed, 分别表示一般情况下的图片以及按下后的图片。
+将自己要替换的scroll thumb 放在drawable目录中, 资源名字为 `scroll_thumb`、`scroll_thumb_pressed`, 分别表示一般情况下的图片以及按下后的图片。
 
+
+** 按住滚动条拖动， 效果如下: **
+
+![](fastscroll.gif)
